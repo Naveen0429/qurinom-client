@@ -74,7 +74,7 @@ const BlogDetails = () => {
             textAlign={"center"}
             fontWeight="bold"
             padding={3}
-            color="gray"
+            color="black"
           >
             Update A Pots
           </Typography>

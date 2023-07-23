@@ -35,7 +35,7 @@ const Header = () => {
   };
   return (
     <>
-      <AppBar position="sticky" sx={{ background: "black" }}>
+      <AppBar position="sticky" sx={{ background: "litegreen" }}>
         <Toolbar>
           <Typography variant="h4">Blog App</Typography>
           {isLogin && (
@@ -59,14 +59,14 @@ const Header = () => {
             {!isLogin && (
               <>
                 <Button
-                  sx={{ margin: 1, color: "white" }}
+                  sx={{ margin: 1, color: "black" }}
                   LinkComponent={Link}
                   to="/login"
                 >
                   Login
                 </Button>
                 <Button
-                  sx={{ margin: 1, color: "white" }}
+                  sx={{ margin: 1, color: "black" }}
                   LinkComponent={Link}
                   to="/register"
                 >
@@ -75,7 +75,7 @@ const Header = () => {
               </>
             )}
             {isLogin && (
-              <Button onClick={handleLogout} sx={{ margin: 1, color: "white" }}>
+              <Button onClick={handleLogout} sx={{ margin: 1, color: "black" }}>
                 Logout
               </Button>
             )}

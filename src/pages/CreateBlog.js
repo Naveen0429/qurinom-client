@@ -55,7 +55,7 @@ const CreateBlog = () => {
             textAlign={"center"}
             fontWeight="bold"
             padding={3}
-            color="gray"
+            color="black"
           >
             Create A Pots
           </Typography>
